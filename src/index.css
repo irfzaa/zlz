@@ -1,0 +1,51 @@
+/* Customize your main colors in :root variables */
+:root {
+  --main-background-color: #28507d;
+  --card-background-color: #28507d;
+  --card-background-lighter-color: #000000;
+  --main-text-color: #f7f6f4;
+  --title-text-color: #3cba8b;
+}
+
+body {
+  background: url('img/background.png');
+  background-size: cover;
+  /*background: url('img/background.png');
+  background-size: cover; */
+
+  margin: 0;
+  font-family: 'Poppins', Arial, sans-serif;
+  font-size:  20px;
+  line-height: 2;
+  -webkit-font-smoothing: black;
+  -moz-osx-font-smoothing: black;
+  background-color: #1f705f;
+  color: #ffffff;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Poppins',
+    monospace;
+}
+
+a {
+  text-decoration: bold;
+}
+
+h2,
+p {
+  color: var(--main-text-color);
+}
+
+h3 {
+  font-weight: bold;
+}
+
+/* Candy Shop styling overrides */
+.css-1wewypr {
+  color: rgb(221, 79, 79);
+}
+
+.css-1ago99h {
+  color: black;
+}
